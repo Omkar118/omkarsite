@@ -163,7 +163,7 @@
 	<section id="Name">		
          <div class="namecontent">
             
-			<p>Omkar Madhav<br>Jadhav<br><text class="Desgnation">Senior Software Engineer</text>
+			<p>Omkar Madhav<br>Jadhav<br><text class="Desgnation">Data Engineer | Cloud & Data Platform Migration</text>
 			<br><a href="https://www.linkedin.com/in/omkar-jadhav-480326132/"><img src="LI-In-Bug.png" alt="LinkedIn Profile"></a>
 			<a href="https://www.hackerrank.com/ResoluteRetro?hr_r=1"><img src="HRanklogo.svg" alt="HackerRank Profile"></a>
 			<a href="https://github.com/Omkar118"><img src="GitHub-Logo.png" alt="GitHub Profile" class="github-logo"></a></p>
@@ -178,7 +178,7 @@
 			<div class="section-item">
 				<h3>Hello, I'm Omkar Jadhav</h3>
 				<p>A budding Software Engineer with a passion for Designing and Developing Software.
-				<br>With a background in Bachelor of Engineering Computer Science and 3 years of experience,
+				<br>With a background in Bachelor of Engineering Computer Science and 5+ years of experience,
 				<br> I thrive on Communication and Problem Solving Skills.
 				<br> I'm committed to the extra mile to deliver best work, and dedicated to be an Ultimate Problem Solver.
 				<br><b> Let's connect and collaborate!</b> </p>
@@ -190,10 +190,11 @@
 		<h2 style="color: white;">My Working Experience</h2>
 		<p style="color: white;">Join me as I share my journey with you!</p>
 		<div class="section-item">
-		<h3>My journey from Associate Software Engineer to Senior Software Engineer</h3>
+		<h3>My journey from Associate Software Engineer to Data Platform Engineer</h3>
 			<div class="section-item">
 				<h3>Associate Software Engineer (Feb-2021 to May-2023)</h3>
-				<p><b>I have worked on COTS tools like :</b> Netcracker's Rating and Billing manager(RBM)</p>
+				<p>Developed PySpark pipelines to extract daily billing data from Oracle and load validated datasets into Hive. </p>
+				<p> Implemented PL/SQL logic for telecom billing configuration and automated operational tasks using Unix shell scripts. </p>
 				<p><b>I have hands on experience on:</b> Oracle PLSQL, Shell Scripting, Python</p>
 				<p><b>I have worked on:</b> the Devops part too we use Jenkins for automated Builds and Sonar for the code quality check</p>
 				<p><b>I have worked with:</b> GIT for source control</p>
@@ -201,16 +202,27 @@
 			</div>
 			
 			<div class="section-item">
-				<h3>Senior Software Engineer (May-2023 to Present)</h3>
-				<p>With the above experience i am moving forward in my journey and working on an exciting project</p>
-				<p>WEBGUI project, we have built WEB based tool which helps Data Integrity Teams to fetch or update Data.</p>
-				<p>This Tool is restricting direct access and update to the DB, saving us from accidental updates on product DB.</p>
-				<p>This Tool is hot hit and there are lots of upcoming plans where we will be attaching robot to automate certain updates.</p>
-				<p><b>Technologies used:</b> React JS, Springboot, Oracle DB</p>
-				<p>I worked on the React JS as well as Oracle Part, currently I am working only on Oracle DB parts.</p>
+				<h3>Senior Software Engineer (May-2023 to – JUL-2025)</h3>
+				<p>- I built Spark SQL / PySpark pipelines to transform Oracle billing data and store optimized Parquet datasets for Hive analytics. </p>
+				<p>- Implemented validation logic and unit tests using pytest; optimized joins, partitions, and aggregations. </p>
+				<p>- Created Jenkins CI/CD pipelines and managed Git-based version control for scheduled data jobs.</p>				
+			</div>	
+
+			<div class="section-item">
+				<h3>Data Platform Engineer (JUL-2025 to – CURRENT)</h3>
+				<h3>A] Cloud Migration & Operations  </h3>
+				<p>- Supported on-prem to AWS data warehouse migration; validated re-modeled datasets in Redshift populated via S3-based ingestion pipelines.</p>
+				<p>- Verified ingestion pipelines using ETL (Glue-based Python) and ELT (Redshift SQL) approaches triggered via Lambda and managed schedulers.</p>
 				
+				<h3>B] Data Reconciliation & Validation</h3>
+				<p>- Performed schema, data type, column count, record count,and sample data reconciliation between Oracle and AWS datasets using SQL and Python (Jupyter notebooks).</p>
+				<p>- Validated data quality checks, load-status audit tables, and supported downstream consumer cutover during migration.</p>
 				
-			</div>		
+				<h3>C] Database Optimization & Decommissioning</h3>
+				<p>- Executed Oracle database reorganization activities, reducing tablespace usage from 18.9 TB to 11.5 TB, delivering significant cost savings. </p>
+				<p>- Segregated tablespaces by schema to enable phased decommissioning as data feeds.</p>
+				
+			</div>			
 			
 		</div>
 		<div class="section-item">
@@ -231,68 +243,104 @@
 			<p style="color: white;">Explore some of my featured projects that showcase my skills and expertise:</p>			
 			
 			<div class="section-item">
-			<h3>Project 1:Atlantis Billing Dev:</h3>
-			<p>Here I worked with Netcracker's Rating and Billing manager tool, here i used to configure products, Tariffs, charges etc.</p>
-			<p><b>Technologies used:</b> Oracle PLSQL,Shell Scripting</p>
+			<h3>Enterprise Data Platform Migration & Validation (AWS):</h3>
+			<p>- Supported migration from on-prem Oracle to AWS-based data platform.</p>
+			<p>- Validated re-modeled datasets loaded into AWS Redshift via S3-based ingestion pipelines.</p>
+			<p>- Performed schema reconciliation, data type checks, record count validation, and sample data comparison.</p>
+			<p>- Queried Athena and Redshift using SQL and Python (Jupyter notebooks).</p>
+			<p>- Verified data quality checks and load-status audit tables.</p>
+			<p>- Coordinated with upstream and downstream teams during data cutover.</p>
+			<p><b>Key Outcome:</b> Ensured accurate and reliable data availability during cloud migration and enabled safe decommissioning of legacy Oracle systems.</p>
+			<p><b>Technologies used:</b> AWS S3, Redshift, Athena, Glue (ETL exposure), Lambda, Python, SQL, Jupyter</p>
 			</div>
+			
 			<div class="section-item">
-			<h3>Project 2: Atlantis WEBGUI:</h3> 
-			<p>This was a front-end based tool developed to help the Data Integrity team to do operations from the front-end instead doing direct updates on the database</p>
-			<p><b>Technologies Used:</b> React JS, Oracle PLSQL, Shell Scripting, Dynatrace.</p>
+			<h3>Oracle Database Optimization & Decommissioning:</h3> 
+			<p>- Executed Oracle database reorganization activities.</p>
+			<p>- Reduced tablespace usage from 18.9 TB to 11.5 TB, achieving significant cost savings.</p>
+			<p>- Segregated tablespaces by schema to enable phased decommissioning.</p>
+			<p>- Supported planning for safe shutdown of legacy data as feeds moved to AWS.</p>
+			<p><b>Key Outcome:</b> Lowered infrastructure costs and reduced operational risk during cloud migration.</p>
+			<p><b>Technologies Used:</b> Oracle Database, PL/SQL, SQL, UNIX</p>
 			</div>
+			
 			<div class="section-item">
-			<h3>Project 3: Deployment Automation Tool:</h3> 
-			<p>The aim of this tool was to help developers in smoother deployment process.</p>
-			<p><b>Technologies Used:</b> Django</p>
+			<h3>Spark-Based Telecom Billing Data Pipeline:</h3> 
+			<p>- Built Spark SQL / PySpark pipelines to transform billing and pricing data.</p>
+			<p>- Applied joins, filters, aggregations, and partitioning.</p>
+			<p>- Stored optimized datasets in Parquet format for Hive analytics.</p>
+			<p>- Implemented data validation logic and unit tests using pytest.</p>
+			<p>- Automated scheduled runs using Jenkins CI/CD pipelines.</p>
+			<p><b>Key Outcome:</b> Delivered clean, analytics-ready datasets for reporting with improved performance and reliability.</p>
+			<p><b>Technologies Used:</b> Apache Spark, PySpark, Spark SQL, Hive, Parquet, Python, Jenkins, Git</p>
 			</div>
+			
 			<div class="section-item">
-			<h3>Project 4: CSV Validation Tool:</h3> 
-			<p>The aim of this tool was to build a cloud native tool which will automate the CSV validation process, and upon successful validation, the data needs to be pushed on redshift clusters</p>
-			<p><b>Technologies Used:</b> AWS EC2, Redshift clusters, AWS S3 </p>
+			<h3>Project Saikat – GenAI-Based Secure Document Q&A:</h3> 
+			<p>- Built a private document Q&A system using Python and open-source LLMs.</p>
+			<p>- Enabled secure querying of sensitive internal documents.</p>
+			<p>- Focused on privacy, local execution, and access control.</p>
+			<p><b>Key Outcome:</b> Delivered a tool for quick issue resolution and improved learning.</p>
+			<p><b>Technologies Used:</b> Python, LLMs, UNIX</p>
 			</div>
+			
 			<div class="section-item">
-			<h3>Project 5: Backup Automation Solution:</h3> 
+			<h3>Project: Backup Automation Solution:</h3> 
 			<p>This was a POC ,the aim of this tool was to automate the backup of machines/servers, this was being developed as a cloud native tool</p>
 			<p><b>Technologies Used:</b> AWS Cloud, Python</p>
 			</div>
     </section>
 	
-    <section id="skills">
-	   <h2 style="color: white;">Skills</h2>
-	   <p style="color: white;">Here are Skills that I have gained throughout my journey<p>
-       <div class="section-item">
-			<h3>Database</h3>
-			<p>For most part of journey I have worked on Oracle Database</p>
-			<p>In my current project I work on Oracle PLSQL</p>
-			<p>I have written Several Stored Procedures, Packages, Anonymous blocks, etc.</p>
-		</div>
-		<div class="section-item">
-			<h3>Programming Language</h3>
-			<p>For most part of my journey there was no fixed Programming Language</p>
-			<p>However i have hand of experience with the following Programming Languages in the order of experties</p>
-			<p>Orace PLSQL</p>
-			<p>Shell Scripting</p>
-			<p>Python</p>
-			<p>React JS</p>
-		</div>
-		<div class="section-item">
-			<h3>Tools</h3>
-			<p>Here are some of the tools i used</p>
-			<p>Netcracker's Revenue Management Tool: This is the core of our project</p>
-			<p><b>GIT:</b> For Source Control we use GIT.</p>
-			<p><b>Dynatrace:</b> This we use to track the health of our applications and Infrastrcutre.</p>
-			<p><b>Jenkins:</b> For Deployment we use Jenkins</p>
-			<p><b>Sonar Code Quality check:</b> Before Deployment we run Sonar on our codes to understand the code issues</p>
-			<p><b>Postman:</b> For API testing</p>
-		</div>
-		<div class="section-item">
-			<h3>Cloud</h3>
-			<p>I have not worked extensively on cloud, However I do have hands-on experience on the AWS cloud where I have used the following Services</p>
-			<p>EC2</p>
-			<p>Redshift</p>
-			<p>S3</p>
-		</div>
-		<div class="section-item">
+	<section id="skills">
+	<h2 style="color: white;">Skills</h2>
+	<p style="color: white;">
+		Technologies and tools I have used while building, supporting, and validating data platforms.
+	</p>
+	
+	<div class="section-item">
+		<h3>Data Engineering</h3>
+		<p>Apache Spark, Spark SQL, PySpark</p>
+		<p>ETL / ELT Pipelines, Data Validation, Data Quality Checks</p>
+		<p>Hive, Parquet, Batch Data Processing</p>
+	</div>
+	
+	<div class="section-item">
+		<h3>Databases</h3>
+		<p>Oracle Database, Oracle PL/SQL</p>
+		<p>Stored Procedures, Packages, Anonymous Blocks</p>
+		<p>Schema Design, Data Reconciliation, Database Optimization</p>
+	</div>
+	
+	<div class="section-item">
+		<h3>Programming & Scripting</h3>
+		<p>Python (data processing, validation, automation)</p>
+		<p>Shell Scripting (Linux/UNIX automation)</p>
+		<p>SQL (Oracle, Redshift, Athena)</p>
+	</div>
+	
+	<div class="section-item">
+		<h3>Cloud & Data Platforms (AWS)</h3>
+		<p>Amazon S3 (data lake storage)</p>
+		<p>Amazon Redshift (data warehouse)</p>
+		<p>Amazon Athena (interactive querying)</p>
+		<p>AWS Glue (ETL framework exposure), AWS Lambda (pipeline triggers)</p>
+	</div>
+	
+	<div class="section-item">
+		<h3>DevOps & Monitoring</h3>
+		<p>Git (Version Control)</p>
+		<p>Jenkins (CI/CD for data pipelines)</p>
+		<p>SonarQube (Code Quality)</p>
+		<p>Dynatrace (Application & Infrastructure Monitoring)</p>
+	</div>
+	
+	<div class="section-item">
+		<h3>Tools & Platforms</h3>
+		<p>Netcracker Revenue Management (Telecom Billing)</p>
+		<p>Postman (API Testing)</p>
+		<p>Jupyter Notebook (Data Validation & Analysis)</p>
+	</div>
+	<div class="section-item">
 			<h3>Certification</h3>
 			<p>During Covid Lockdown I invested my time in learning various technologies</p>
 			<table>
@@ -355,7 +403,7 @@
 				}
 			</style>
 		</div>
-    </section>
+	</section>
 	
     <section id="education">
 	   <h2 style="color: white;">Education</h2>
@@ -440,7 +488,7 @@
 		</div>
     </section>
     <footer>
-        <p>&copy; 2023 Omkar Jadhav. All rights reserved.</p>
+        <p>&copy; 2026 Omkar Jadhav. All rights reserved.</p>
     </footer>
 </body>
 </html>
